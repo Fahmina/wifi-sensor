@@ -6,6 +6,15 @@ This is an example of a Viam module using our Python SDK. This repo shows how to
 - Write a simple module in Python
 - Use CI to automatically publish a new version when you create a Github release
 
+## Contents
+
+- src: folder with python code
+- exec.sh, setup.sh: entrypoint and dependencies setup for when this runs as a module on a robot
+- Makefile: bundles your module into a tarball for distribution
+- .github/workflows: uploads the module when you do a github release
+- meta.json: Viam module configuration file
+- requirements.txt: dependencies. When run as a module, setup.sh installs these in the virtualenv
+
 ## Forking this repo
 
 If you want to copy this repo and run it yourself, you'll need to make a few changes:
