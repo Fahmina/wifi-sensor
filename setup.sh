@@ -10,7 +10,7 @@ if ! command -v $SUDO; then
 fi
 
 if command -v apt-get; then
-	if dpkg -l python3-venv; then
+	if dpkg --status python3-venv > /dev/null; then
 		echo "python3-venv is installed, skipping setup"
 	else
 		if ! apt info python3-venv; then
