@@ -32,7 +32,7 @@ You can also:
 This module includes basic module logic in its [`src/wifi_sensor.py`](https://github.com/viam-labs/python-example-module/blob/main/src/wifi_sensor.py) file.
 Follow the instructions to [create your own module](https://docs.viam.com/registry/create/) to learn how to write a custom module that extends a Viam API.
 
-### Setting up a `vitualenv`
+### Setting up a `virtualenv`
 
 This module includes a `setup.sh` file to help configure a `virtualenv` for this module.
 Follow the instructions to [prepare your Python virtual environment](https://docs.viam.com/build/program/python-venv/) to learn how to set up and distribute a `virtualenv` configuration with your custom module.
