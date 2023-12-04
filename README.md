@@ -9,14 +9,15 @@ This module serves as a simple example of a Viam module built using our Python S
 
 ## Getting started
 
-To use this module, follow the instructions to [add a module from the Viam registry](https://docs.viam.com/registry/configure/), select the **Sensor** component, then select the `wifi_sensor:linux` model from the [`python-example-module` module](https://app.viam.com/module/viam/python-example-module).
+If you haven’t already, [create a robot](https://docs.viam.com/manage/fleet/robots/#add-a-new-robot) and [install `viam-server`](https://docs.viam.com/installation/).
+
+Then, to add this module to your machine, follow the instructions to [add a module from the Viam registry](https://docs.viam.com/registry/configure/), select the **Sensor** component, and select the `wifi_sensor:linux` model from the [`python-example-module` module](https://app.viam.com/module/viam/python-example-module).
 
 ### Configuration
 
-1. If you haven’t already, [create a robot](https://docs.viam.com/manage/fleet/robots/#add-a-new-robot) and [install `viam-server`](https://docs.viam.com/installation/).
-2. [Add the data management service](https://docs.viam.com/data/capture/#add-the-data-management-service) to your machine.
-3. Ensure that both [Data capture](https://docs.viam.com/data/capture/) and [Cloud sync](https://docs.viam.com/data/cloud-sync/) are enabled for the data management service.
-4. Then, [enable data capture for your `wifi_sensor` component](https://docs.viam.com/data/capture/#configure-data-capture-for-individual-components) as well.
+1. [Add the data management service](https://docs.viam.com/data/capture/#add-the-data-management-service) to your machine.
+2. Ensure that both [Data capture](https://docs.viam.com/data/capture/) and [Cloud sync](https://docs.viam.com/data/cloud-sync/) are enabled for the data management service.
+3. Then, [enable data capture for your `wifi_sensor` component](https://docs.viam.com/data/capture/#configure-data-capture-for-individual-components) as well.
 
 ### View sensor readings
 
@@ -26,6 +27,7 @@ You can also:
 - [Filter your results](https://docs.viam.com/data/view/#filter-data) using specific search criteria.
 - [Export your readings](https://docs.viam.com/data/export/) to your local workstation or another machine.
 - [Query your results](https://docs.viam.com/data/query/) using SQL or MQL directly in the App or from a MQL-compatible client.
+- [Change the data capture frequency](https://docs.viam.com/data/capture/#configure-data-capture-for-individual-components) or [cloud sync frequency](https://docs.viam.com/data/cloud-sync/#configuration)
 
 ## Writing a module
 
