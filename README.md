@@ -16,8 +16,8 @@ Then, to add this module to your machine, follow the instructions to [add a modu
 ### Configuration
 
 1. [Add the data management service](https://docs.viam.com/data/capture/#add-the-data-management-service) to your machine.
-2. Ensure that [Data capture](https://docs.viam.com/data/capture/) enabled for the data management service.
-   If you would like to sync your captured readings to the Viam app as well, additionally enable [Cloud sync](https://docs.viam.com/data/cloud-sync/).
+2. Ensure that [data capture](https://docs.viam.com/data/capture/) is enabled for the data management service.
+   If you would like to sync your captured readings to the Viam app as well, additionally enable [cloud sync](https://docs.viam.com/data/cloud-sync/).
 4. Then, [enable data capture for your `wifi_sensor` component](https://docs.viam.com/data/capture/#configure-data-capture-for-individual-components) as well.
 
 ### View sensor readings
