@@ -7,7 +7,7 @@ from viam.resource.base import ResourceBase
 from viam.resource.types import Model, ModelFamily
 
 class MySensor(Sensor):
-    # Subclass the Viam Arm component and implement the required functions
+    # Subclass the Viam Sensor component and implement the required functions
     MODEL: ClassVar[Model] = Model(ModelFamily("viam", "wifi_sensor"), "linux")
 
     @classmethod
