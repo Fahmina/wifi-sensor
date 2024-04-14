@@ -25,7 +25,12 @@ else
 fi
 
 source .env
-echo creating virtualenv at $VIRTUAL_ENV
-python3 -m venv $VIRTUAL_ENV
-echo installing dependencies from requirements.txt
-$VIRTUAL_ENV/bin/pip install -r requirements.txt
+if [ -f $VIRTUAL_ENV/.install_complete ]; then
+	echo "completion marker is present, skipping virtualenv setup"
+else
+	echo creating virtualenv at $VIRTUAL_ENV
+	python3 -m venv $VIRTUAL_ENV
+	echo installing dependencies from requirements.txt
+	$VIRTUAL_ENV/bin/pip install -r requirements.txt
+	touch $VIRTUAL_ENV/.install_complete
+fi
