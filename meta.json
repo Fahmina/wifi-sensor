@@ -9,5 +9,9 @@
       "model": "viam:wifi_sensor:linux"
     }
   ],
+  "build": {
+    "build": "make module.tar.gz",
+    "arch": ["linux/any"]
+  },
   "entrypoint": "exec.sh"
 }
