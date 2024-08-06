@@ -1,1 +1,1 @@
-viam-sdk
+viam-sdk==0.27

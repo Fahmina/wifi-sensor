@@ -1,3 +1,5 @@
 .DS_Store
 *.tar.gz
 .venv/
+.direnv/
+__pycache__/

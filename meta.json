@@ -11,7 +11,8 @@
   ],
   "build": {
     "build": "make module.tar.gz",
-    "arch": ["linux/any"]
+    "path": "module.tar.gz",
+    "arch": ["linux/amd64"]
   },
   "entrypoint": "exec.sh"
 }
